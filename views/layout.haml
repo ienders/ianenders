@@ -2,6 +2,16 @@
 %html
   %head
     %title Ian Enders
+    %meta{:content => "BJ-AxCSPNC8koVmBDKh5DbCcxjXmAU56jBf3Hsxqbuw", :name => "google-site-verification"}/
     %link(href="/stylesheets/app.css" media="screen" rel ="stylesheet" type="text/css")/
   %body
     .content= yield
+
+
+  :javascript
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    try {
+    var pageTracker = _gat._getTracker("UA-8770304-1");
+    pageTracker._trackPageview();
+    } catch(err) {}
