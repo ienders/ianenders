@@ -13,5 +13,7 @@
     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
     try {
     var pageTracker = _gat._getTracker("UA-8770304-1");
+    pageTracker._setDomainName("none");
+    pageTracker._setAllowLinker(true);
     pageTracker._trackPageview();
     } catch(err) {}
