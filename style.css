@@ -2,30 +2,24 @@ body {
   margin: 0px;
   background-color: black;
   font-family: Helvetica Neue, Helvetica;
-  color: white;
-  a {
+  color: white; }
+  body a {
     color: orange;
-    text-decoration: none;
-    &:hover {
-      color: yellow;
-    }
-  }
-  .content {
-    background: url('/gitrdone.png') no-repeat top right;
+    text-decoration: none; }
+    body a:hover {
+      color: yellow; }
+  body .content {
+    background: url("gitrdone.png") no-repeat top right;
     height: 1398px;
     width: 1600px;
     margin: 0 0 0 auto;
-    padding-left: 50px;
-    h1 {
+    padding-left: 50px; }
+    body .content h1 {
       font-weight: normal;
       padding: 25px 0 0;
       margin: 0px;
-      font-size: 130px;
-    }
-    p {
+      font-size: 130px; }
+    body .content p {
       font-size: 17px;
       margin: 5px 0 10px 10px;
-      padding: 0px;
-    }
-  }
-}
+      padding: 0px; }
