@@ -1,7 +1,27 @@
+@font-face {
+  font-family: 'C540';
+  src: url('c540.eot');
+  src: url('c540.eot?#iefix') format('embedded-opentype'),
+    url('c540.woff') format('woff'),
+    url('c540.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'C540';
+  src: url('c540-italic.eot');
+  src: url('c540-italic.eot?#iefix') format('embedded-opentype'),
+    url('c540-italic.woff') format('woff'),
+    url('c540-italic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
 body {
   margin: 0px;
   background-color: #ffffff;
-  font-family: "Caslon 540 LT", serif;
+  font-family: "C540", serif;
   color: black;
   font-size: larger;
 }
